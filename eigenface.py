@@ -6,9 +6,12 @@ import os
 import numpy
 # Se importa la lista de personas con acceso al laboratorio
 from listaPermitidos import flabianos
-
+#Importar modulo de tiempo
+from time import time
 flabs = flabianos()
 
+#iniciamos el tiempo a medir
+starting_point = time()
 # Parte 1: Creando el entrenamiento del modelo
 # Directorio donde se encuentran las carpetas con las caras de entrenamiento
 dir_faces = 'att_faces/orl_faces'
@@ -56,6 +59,7 @@ gender_list = ['Male', 'Female']
 while True:
     # leemos un frame y lo guardamos
     rval, frame = cap.read()
+    #Acomodamos la camara
     frame = cv2.flip(frame, 1, 0)
 
     # convertimos la imagen a blanco y negro
@@ -106,7 +110,8 @@ while True:
         cara = '%s' % (names[prediction[0]])
 
         # Si la prediccion tiene una exactitud menor a 100 se toma como prediccion valida
-        if prediction[1] < 100:
+        print(prediction[1])
+        if prediction[1] < 2000:
             # Ponemos el nombre de la persona que se reconoció
             cv2.putText(frame,
                         '%s : %.0f , %s , %s' % (cara, prediction[1], " Edad : " + str(age), "Gender:" + str(gender)),
@@ -117,13 +122,16 @@ while True:
             flabs.valida_invitado(cara)
 
         # Si la prediccion es mayor a 100 no es un reconomiento con la exactitud suficiente
-        elif prediction[1] > 101 and prediction[1] < 500:
+        elif prediction[1] > 2001 and prediction[1] < 5000:
             # Si la cara es desconocida, poner desconocido
             cv2.putText(frame, 'Desconocido', (x - 10, y - 10), cv2.FONT_HERSHEY_PLAIN, 1, (0, 255, 0))
 
         # Mostramos la imagen
         cv2.imshow('OpenCV Reconocimiento facial', frame)
-
+    #Medimos el tiempo de ejecución
+    elapsed_time = time() - starting_point
+    elapsed_time_int = int(elapsed_time)
+    print(elapsed_time)
     # Si se presiona la tecla ESC se cierra el programa
     key = cv2.waitKey(10)
     if key == 27:
