@@ -1,73 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b992368b-82a7-49d0-a24b-c8136f7d2e03" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="b992368b-82a7-49d0-a24b-c8136f7d2e03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaptureColor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EigenfaceAlgorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FisherfaceAlgorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LBPHAlgorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/reconocimiento-facial-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reconocimiento-facial-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FisherFace.py" beforeDir="false" afterPath="$PROJECT_DIR$/FisherFace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/103.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/104.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/106.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/108.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/109.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/110.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/112.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/113.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/115.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/116.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/117.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/118.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/119.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/121.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/122.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/124.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/126.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/127.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/129.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/130.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/131.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/132.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/133.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/134.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/135.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/136.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/137.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/138.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/139.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/140.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/69.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/77.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/78.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/85.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/86.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/89.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/92.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/93.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/94.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/95.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/97.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/98.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Abraham/99.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/att_faces/orl_faces/Bryan/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/att_faces/orl_faces/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture.py" beforeDir="false" afterPath="$PROJECT_DIR$/capture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/age_net.caffemodel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/deploy_age.prototxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/deploy_gender.prototxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gender_net.caffemodel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eigenface.py" beforeDir="false" afterPath="$PROJECT_DIR$/eigenface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reconocimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/reconocimiento.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/capture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reconocimiento.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eigenface.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listaPermitidos.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FisherFace.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="33" selection-end-line="131" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,73 +182,26 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/data/eigenface.py" />
-        <option value="$PROJECT_DIR$/data/LBPH.py" />
-        <option value="$PROJECT_DIR$/listaPermitidos.py" />
-        <option value="$PROJECT_DIR$/eigenface.py" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-43" />
-    <option name="y" value="-19" />
-    <option name="width" value="820" />
-    <option name="height" value="620" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="reconocimiento-facial-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reconocimiento-facial-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reconocimiento-facial-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reconocimiento-facial-master" type="462c0819:PsiDirectoryNode" />
-              <item name="att_faces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reconocimiento-facial-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reconocimiento-facial-master" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1eY8keyle7xyNsOeR591F3JqL8Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Bryan\PycharmProjects\reconocimiento-facial-master" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.reconocimiento">
-    <configuration name="capture" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.CaptureColor">
+    <configuration name="CaptureColor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="reconocimiento-facial-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +213,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/capture.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CaptureColor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reconocimiento" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="EigenfaceAlgorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="reconocimiento-facial-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,7 +234,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reconocimiento.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EigenfaceAlgorithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FisherFace" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="reconocimiento-facial-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FisherFace.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FisherfaceAlgorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="reconocimiento-facial-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FisherfaceAlgorithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LBPHAlgorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="reconocimiento-facial-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LBPHAlgorithm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,8 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.reconocimiento" />
-        <item itemvalue="Python.capture" />
+        <item itemvalue="Python.CaptureColor" />
+        <item itemvalue="Python.FisherfaceAlgorithm" />
+        <item itemvalue="Python.EigenfaceAlgorithm" />
+        <item itemvalue="Python.LBPHAlgorithm" />
+        <item itemvalue="Python.FisherFace" />
       </list>
     </recent_temporary>
   </component>
@@ -204,75 +329,26 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17782739" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/capture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listaPermitidos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reconocimiento.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FisherFace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="33" selection-end-line="131" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eigenface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1594487435794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594487435794" />
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1597288471200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597288471200" />
+    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1597288471200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597288471200" />
+    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1597288471200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597288471200" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1597288471200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597288471200" />
   </component>
 </project>

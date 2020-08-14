@@ -34,7 +34,7 @@ for (subdirs, dirs, files) in os.walk(dir_faces):
 
 # Crear una matriz Numpy de las dos listas anteriores
 (images, lables) = [numpy.array(lis) for lis in [images, lables]]
-# OpenCV entrena un modelo a partir de las imagenes
+    # OpenCV entrena un modelo a partir de las imagenes
 model = cv2.face.EigenFaceRecognizer_create()
 model.train(images, lables)
 
@@ -44,22 +44,10 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 cap = cv2.VideoCapture(0)
 
-age_net = cv2.dnn.readNetFromCaffe(
-    'data/deploy_age.prototxt',
-    'data/age_net.caffemodel')
-
-gender_net = cv2.dnn.readNetFromCaffe(
-    'data/deploy_gender.prototxt',
-    'data/gender_net.caffemodel')
-
-MODEL_MEAN_VALUES = (78.4263377603, 87.7689143744, 114.895847746)
-age_list = ['(0, 2)', '(4, 6)', '(8, 12)', '(15, 20)', '(25, 32)', '(38, 43)', '(48, 53)', '(60, 100)']
-gender_list = ['Male', 'Female']
 
 while True:
     # leemos un frame y lo guardamos
     rval, frame = cap.read()
-    #Acomodamos la camara
     frame = cv2.flip(frame, 1, 0)
 
     # convertimos la imagen a blanco y negro
@@ -69,7 +57,7 @@ while True:
     mini = cv2.resize(gray, (int(gray.shape[1] / size), int(gray.shape[0] / size)))
 
     """buscamos las coordenadas de los rostros (si los hay) y
-        guardamos su posicion"""
+		guardamos su posicion"""
     faces = face_cascade.detectMultiScale(mini)
 
     for i in range(len(faces)):
@@ -78,12 +66,15 @@ while True:
 
         # Obteniendo rostro
         face_img = frame[y:y + h, h:h + w].copy()
-        blob = cv2.dnn.blobFromImage(face_img, 1, (227, 227), MODEL_MEAN_VALUES, swapRB=False)
+       # blob = cv2.dnn.blobFromImage(face_img, 1, (227, 227), MODEL_MEAN_VALUES, swapRB=False)
 
         face = gray[y:y + h, x:x + w]
         face_resize = cv2.resize(face, (im_width, im_height))
 
         # Intentado reconocer la cara
+        predictLabel = model.predict(face_resize)
+        print(model.predict(face_resize))
+        #confianza = 0.0
         prediction = model.predict(face_resize)
 
         # Dibujamos un rectangulo en las coordenadas del rostro
@@ -95,15 +86,7 @@ while True:
         for (ex, ey, ew, eh) in eyes:
             cv2.rectangle(roi_color, (ex, ey), (ex + ew, ey + eh), (0, 255, 0), 2)
 
-        # Predcir Genero
-        gender_net.setInput(blob)
-        gender_preds = gender_net.forward()
-        gender = gender_list[gender_preds[0].argmax()]
 
-        # Predecir Edad
-        age_net.setInput(blob)
-        age_preds = age_net.forward()
-        age = age_list[age_preds[0].argmax()]
 
         # Escribiendo el nombre de la cara reconocida
         # La variable cara tendra el nombre de la persona reconocida
@@ -111,10 +94,9 @@ while True:
 
         # Si la prediccion tiene una exactitud menor a 100 se toma como prediccion valida
         print(prediction[1])
-        if prediction[1] < 2000:
+        if prediction[1] > 0 and prediction[1]<3700:
             # Ponemos el nombre de la persona que se reconoció
-            cv2.putText(frame,
-                        '%s : %.0f , %s , %s' % (cara, prediction[1], " Edad : " + str(age), "Gender:" + str(gender)),
+            cv2.putText(frame, '%s : %.0f ' % (cara, prediction[1]),
                         (x - 10, y - 10), cv2.FONT_HERSHEY_PLAIN, 1, (0, 255, 0))
 
             # En caso de que la cara sea de algun conocido se realizara determinadas accione
@@ -122,16 +104,17 @@ while True:
             flabs.valida_invitado(cara)
 
         # Si la prediccion es mayor a 100 no es un reconomiento con la exactitud suficiente
-        elif prediction[1] > 2001 and prediction[1] < 5000:
+
+        elif prediction[1] > 3701:
             # Si la cara es desconocida, poner desconocido
-            cv2.putText(frame, 'Desconocido', (x - 10, y - 10), cv2.FONT_HERSHEY_PLAIN, 1, (0, 255, 0))
+            cv2.putText(frame, 'Desconocido',(x-10, y-10), cv2.FONT_HERSHEY_PLAIN,1,(0, 255, 0))
 
         # Mostramos la imagen
-        cv2.imshow('OpenCV Reconocimiento facial', frame)
-    #Medimos el tiempo de ejecución
+    cv2.imshow('OpenCV Reconocimiento facial', frame)
+    # Medir tiempo de ejecucion
     elapsed_time = time() - starting_point
     elapsed_time_int = int(elapsed_time)
-    print(elapsed_time)
+    print(elapsed_time_int)
     # Si se presiona la tecla ESC se cierra el programa
     key = cv2.waitKey(10)
     if key == 27:

@@ -22,14 +22,14 @@ if not os.path.isdir(path):
 #cargamos la plantilla e inicializamos la webcam:
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('att_faces/Prueba/Video4.mp4')
 
 img_width, img_height = 112, 92
 #Ciclo para tomar fotografias
 count = 0
-# while count < 100:
-while(True):
-
+while count < 110:
+	cv2.WINDOW_AUTOSIZE
+#while(True):
 	#leemos un frame y lo guardamos
 	ret, img = cap.read()
 	img = cv2.flip(img, 1, 0)
@@ -42,7 +42,7 @@ while(True):
 	#buscamos las coordenadas de los rostros (si los hay) y
 	#guardamos su posicion
 	faces = face_cascade.detectMultiScale(mini)
-	faces = sorted(faces, key=lambda x: x[3]) 
+	faces = sorted(faces, key=lambda x: x[3])
 
 	if faces:
 		face_i = faces[0]
@@ -76,7 +76,7 @@ while(True):
 		count += 1
 
 	#Mostramos la imagen
-	cv2.imshow('OpenCV Entrenamiento de '+nombre, img)
+	cv2.imshow('Entrenamiento de '+nombre, img)
 
 	#Si se presiona la tecla ESC se cierra el programa
 	key = cv2.waitKey(10)
